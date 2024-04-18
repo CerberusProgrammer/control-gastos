@@ -15,9 +15,9 @@ export default function BudgetTracker() {
           Reset
         </button>
 
-        <AmountDisplay label="Presupuesto" amout={300} />
-        <AmountDisplay label="Disponible" amout={150} />
-        <AmountDisplay label="Gastado" amout={75} />
+        <AmountDisplay label="Presupuesto" amount={300} />
+        <AmountDisplay label="Disponible" amount={150} />
+        <AmountDisplay label="Gastado" amount={75} />
       </div>
     </div>
   );
